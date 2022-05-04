@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+background-color: black;
+font-family: 'Poppins', sans-serif;
+}
+#head{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+#head-span{
+  color:red;
+}
+
+.navbar{
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+
+
+
+}
+.navbar a{
+  float: left;
+  padding:15px;
+  color: white;
+  text-decoration: none solid black;
+  font-size: 20px;
+  border-radius: 3px;
+
+
+
+}
+.navbar a:hover{
+  background-color:red;
+
+
+
+}
+.active{
+  background-color: red;
+  color: black
+
+}
+@media screen and (max-width: 500px){
+  .navbar a {
+    float: left;
+    display: block;
+
+  }
+}
+
+.box{
+  background:red;
+  text-align: center;
+  display: flex;
+  padding:10px;
+  margin:35px;
+  opacity: 88%;
+  border-radius: 20px;
+}
+
+#img1{
+  width: 398px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+
+h2{
+  font-size: 40px;
+  color:red;
+}
+p{
+font-size: 20px;
+color: white;
+}
+
+.content-box{
+  background:none;
+  text-align: center;
+  padding:4px;
+  margin:120px;
+  border-radius: 2%;
+  opacity: 95%;
+}
+
+#poster2{
+  width: 900px;
+  height: 450px;
+  border-radius: 2%;
+}
+#container{
+  min-height: 100%;
+}
+#main{
+  overflow: auto;
+padding-bottom: 130px;
+}
+
+#footer{
+  background-color: red;
+  position: relative;
+  height: 210px;
+  margin-top: -100px;
+  clear: both;
+  border-radius: 10px;
+  opacity: 90%;
+}
+#fot{
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  transform: translateY(50%);
+  font-weight: bolder;
+}
+
+#accs{
+  color:white;
+  font-size: 13px;
+  text-align:center;
+    transform: translateY(40%);
+}
+
+#icons{
+  justify-content:center;
+display: flex;
+  text-decoration: none;
+}
+
+#icon-dec{
+  color:white;
+  width: 60px;
+  display: flex;
+font-size: 20px;
+text-decoration:none;
+
+}
+.container{
+position: relative;
+width: auto;
+padding: 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+background-color: black;
+border-radius: 10px;
+
+}
+
+.card{
+  position: relative;
+  width: 250px;
+  height: 370px;
+  background-color: black;
+  border-radius: 10px;
+  background:rgba(255,255,255,0.1);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+
+
+}
+.card:hover{
+  box-shadow:  0 15px 25px rgba(205, 205, 205, 0.5);
+background-color: red;
+
+}
+
+.img-bx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(12px) scale(0.8);
+  transform-origin: top;
+}
+.img-bx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transform: translateY(425%);
+}
+
+.content .detail h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.0em;
+  text-align:center;
+}
+
+
+.box-k{
+  background:black;
+  text-align: center;
+  padding:0px;
+  margin:200px;
+opacity: 90%;
+border-radius: 10px;
+}
+#img-k{
+  width: 900px;
+  height: 400px;
+  border-radius: 2%;
+}
+#tp-k{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+.box-about{
+  background:none;
+  text-align: center;
+  padding:20px;
+  margin:10px;
+opacity: 90%
+display:flex;
+border-radius: 10px;
+}
+#img-ab{
+  width: 300px;
+  height: 170px;
+  border-radius: 20px;
+  padding: 7px;
+}
+#img-mid{
+  width: 800px;
+  height: 400px;
+  border-radius: 20px;
+  padding:8px;
+  border:8px solid white;
+}
+#ab-text{
+  font-size: 30px;
+  padding: 8px;
+}
+#GIF{
+  padding: 50px;
+  height: 400px;
+  width:800px;
+}
+.slider{
+  width: 900px;
+  height: 500px;
+  background: url(IMG10.jpg);
+  margin: 100px auto;
+  animation: slide 30s infinite;
+  display:flex;
+
+  border-radius: 10px;
+}
+@keyframes slide {
+0% {
+  background: url(IMG10.jpg);
+    background-size: cover;
+}
+10% {
+  background: url(IMG9.jpg);
+    background-size: cover;
+}
+20% {
+  background: url(IMG8.jpeg);
+    background-size: cover;
+}
+30% {
+  background: url(IMG7.jpg);
+    background-size: cover;
+}
+40% {
+  background: url(IMG6.jpg);
+    background-size: cover;
+}
+50% {
+  background: url(IMG5.jpg);
+    background-size: cover;
+}
+60% {
+  background: url(IMG4.jpg);
+    background-size: cover;
+}
+70% {
+  background: url(IMG3.jpg);
+    background-size: cover;
+}
+80% {
+  background: url(IMG2.jpg);
+    background-size: cover;
+}
+90% {
+  background: url(IMG1.jpg);
+    background-size: cover;
+}
+100% {
+  background: url(IMG11.jpg);
+    background-size: cover;
+}
+}
+
+.container2{
+position: relative;
+width: auto;
+padding: 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+background-color: black;
+border-radius: 10px;
+
+}
+
+.card2{
+  position: relative;
+  width: 230px;
+  height: 340px;
+  background-color: black;
+  border-radius: 10px;
+  background:rgba(255,255,255,0.1);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+margin-bottom: 70px;
+}
+
+
+.container2:hover .card2{
+    transform: scale(0.9);
+}
+
+.card2:hover{
+  box-shadow:  0 15px 25px rgba(205, 205, 205, 0.5);
+}
+
+.img-bx2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(cover) scale(0.8);
+  transform-origin: top;
+}
+
+.img-bx2 img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 .detail2 {
+  display: flex;
+padding-right: 2px;
+  flex-direction: column;
+  text-align: left;
+  transform: translateY(470%);
+}
+
+.content2 .detail2 h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.0em;
+  text-align:left;
+}
+
+
+.Nextpage{
+width: auto;
+border-radius: 4px;
+background-color:none;
+text-align: center;
+align-items: center;
+border-radius: 10px;
+padding-top: 15px;
+
+}
+
+.Nextpage a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+    font-size: 20px;
+      justify-content: center;
+}
+#page-no{
+color:red;
+font-weight: bolder;
+  border-radius: 2px;
+padding: 15px;
+justify-content: center;
+text-align: center;
+}
+
+#ep-wat{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+.watch-ep{
+  background:black;
+  text-align: center;
+  padding:auto;
+  margin:auto;
+}
+#EPISODES{
+  width: 1200px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.Nextep{
+width: auto;
+border-radius: 4px;
+background-color:none;
+text-align: center;
+align-items: center;
+border-radius: 10px;
+padding-top: 15px;
+
+}
+
+.Nextep a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+    font-size: 20px;
+      justify-content: center;
+}
+#page-ep{
+color:red;
+font-weight: bolder;
+  border-radius: 2px;
+padding: 15px;
+justify-content: center;
+text-align: center;
+}
